@@ -1,0 +1,39 @@
+# 
+#
+# cmps101
+#
+
+Makefile: List.c, List.h, Graph.h, Graph.c, GraphTest.c,
+FindComponents.c
+
+List.c: Doubly linked list data structure used to store an
+integer data capable of traversing the list via index, that
+is, index of cursor.
+
+List.h: Header file for List ADT. 
+
+Graph.h: Header file for Graph ADT that exports the 
+following functions.
+
+Graph.c: Graph ADT used to perform Depth-First Search on 
+Graphs stored within.
+
+GraphTest.c: A test file for Graph ADT.
+
+FindComponents.c:  This file should: 1)Read the input file.
+  2) Assemble a graph object G using newGraph() and addArc(). 
+  3) Print the adjacency list representation of G to the 
+  output file.
+  4) Run DFS on G and GT , processing the vertices in the 
+  second call by decreasing finish times from the first call. 
+  5) Determine the strong components of G.
+  6) Print the strong components of G to the output file in 
+  topologically sorted order    
+
+
+
+
+
+
+
+

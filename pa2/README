@@ -1,0 +1,28 @@
+James Vrionis
+JVrionis
+1-27-17
+Programming Assignment 2
+
+List.c:  My List ADT module contained below with required 
+operations. All services exported to the client module.ADT 
+with underlying doubly linked list data structure in C.
+
+List.h: This file contains definitions of all public functions
+as well as definitions of private types and functions. It 
+contains a reference type List that is a structure of type
+ListObj. It also contains prototypes for ADT operations. 
+
+ListClient.c: A test client for List ADT provided you from 
+your webpage unchanged.
+
+Lex.c: Takes an input file and indirectly organizes it in 
+lexicographic order into an ouput file.
+
+Makefile: A Makefile that creates an executble file called
+Lex, which is the main program for this project. Included within
+is a clean target that removes Lex and any associated .class 
+files.
+
+README: A table of contents for this project containing the 
+following files: List.c, List.h, ListClient.c, Lex.c, 
+Makefile, and README.

@@ -1,0 +1,23 @@
+James Vrionis
+JVrionis
+1-20-17
+Programming Assignment 1
+
+List.java:  My List ADT module contained below with required 
+operations. All services exported to the client module.ADT 
+with underlying doubly linked list data structure. 
+
+ListClient.java: A test client for List ADT provided you from 
+your webpage unchanged.
+
+Lex.java: Takes an input file and indirectly organizes it in 
+lexicographic order into an ouput file.
+
+Makefile: A Makefile that creates an executble jar file called
+Lex, which is the main program for this project. Included within
+is a clean target that removes Lex and any associated ,class 
+files.
+
+README: A table of contents for this project containing the 
+following files: List.java, ListClient.java, Lex.java, 
+Makefile, and README.
